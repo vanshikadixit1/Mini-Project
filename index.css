@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Port+Lligat+Sans&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+:root{
+  --purpule: purple;
+  --light: lavender;
+  --grey: grey;
+  --white: white;
+  --black:black;
+
+
+}
+#header {
+  top: 0px;
+  position: fixed;
+  width: 100%;
+  height: 79px;
+  background-color:black;
+  color: wheat;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.logo {
+  
+  margin-left: -35px;
+  padding-left: 4px;
+  width: 100px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}
+nav{
+  padding: 19px 0 23px 46px;
+}
+
+nav ul {
+  list-style: none;
+  padding-top:9px;
+  display: flex;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px;
+  font-size: 20px;
+  transition: 0.5s;
+}
+nav ul li a:hover {
+  background-color: lavender;
+  color: black;
+}
+
+
+#header2 {
+  width: 100%;
+  height: 450px;
+  position: relative;
+  /* background-color: rgb(231, 227, 227); */
+  margin-top: 80px;
+  display: flex;
+  
+  
+  
+}
+#heading {
+  font-weight: bold;
+  font-style: normal;
+  color: black;
+  margin-bottom: 40px;
+}
+#heading1 {
+  font-weight: bold;
+  font-style: normal;
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#heading2 {
+  padding-top: 30px;
+  font-weight: bold;
+  font-style: normal;
+  color: black;
+  
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+#heading3 {
+  padding-top: 30px;
+  font-weight: bold;
+  font-style: normal;
+  color: black;
+  
+  margin-bottom: 30px;
+}
+
+.aboutus {
+  width: 100%;
+  height: 170vh;
+  background-color: rgb(231, 227, 227);
+  margin-top: 20px;
+
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  padding: 25px 25px;
+  margin-bottom: 20px;
+}
+.container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 100px 50px 50px;
+  text-align: center;
+  background-color: rgb(231, 227, 227);
+}
+#container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color:rgb(231, 227, 227);
+  margin-bottom: 30px;
+  text-align: center;
+}
+.card {
+  background-color: white;
+  box-shadow: 6px 8px 8px 5px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-left: 10px;
+  text-align: center;
+
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+ footer{
+  width: 100%;
+  height: 300px;
+  
+  background-color: black;
+  display: flex;
+  
+  justify-content: space-between;
+  padding: 0px 20px;
+  align-items: center;
+  font-weight: lighter;
+  font-family: 'Port Lligat Sans', sans-serif;
+  
+}
+footer ul{
+  list-style: none;
+  
+  justify-content: space-evenly;
+
+
+}
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  transition: 0.5s;
+  display: block;
+  justify-content: center;
+  
+}
+footer ul li a:hover {
+  background-color: lavender;
+  color: black;
+}
+footer #contact{
+  margin-left: 0px;
+
+} 
+
